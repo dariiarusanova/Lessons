@@ -1,6 +1,7 @@
 package Lesson5;
 
 public class Employee {
+    //пересдача
     static void printInfo(){
         System.out.println("name " + Employee.name + " | position " + Employee.position + " | email " + Employee.email + " | phone number " + Employee.phone + " | salary " + Employee.salary +" | age " +Employee.age);
     }

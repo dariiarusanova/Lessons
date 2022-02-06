@@ -1,6 +1,7 @@
 package Lesson5;
 
 public class HomeWorkApp5 {
+    //пересдача
 
     public static void main(String[] args) {
         Employee[] Employee_Array = new Employee[5];
