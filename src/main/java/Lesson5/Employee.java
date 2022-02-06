@@ -1,12 +1,16 @@
 package Lesson5;
 
 public class Employee {
-    String name;
-    String position;
-    String email;
-    String phone;
-    String salary;
-    String age;
+    static void printInfo(){
+        System.out.println("name " + Employee.name + " | position " + Employee.position + " | email " + Employee.email + " | phone number " + Employee.phone + " | salary " + Employee.salary +" | age " +Employee.age);
+    }
+    static String name;
+    static String position;
+    static String email;
+    static String phone;
+    static String salary;
+    static String age;
+
 
     public Employee(String name, String position, String email, String phone, String salary, String age) {
        name = name;
@@ -16,12 +20,7 @@ public class Employee {
          salary = salary;
          age = age;
     }
-    public int getAge(String age) {
+    public String getAge() {
         return age;
     }
-    public void printInfo(){
-        System.out.println("name " + name + " | position " + position + " | email " + email + " | phone number " + phone + " | salary " + salary +" | age "+age);
-    }
-
-
-}
+  }
