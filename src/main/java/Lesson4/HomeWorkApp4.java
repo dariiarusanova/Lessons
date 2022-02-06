@@ -1,6 +1,3 @@
-package Lesson4;
-
-public class HomeWorkApp4 {
     package Lesson4;
 
 import java.util.Random;
@@ -122,6 +119,3 @@ import java.util.Scanner;
             return true;
         }
     }
-
-
-}
