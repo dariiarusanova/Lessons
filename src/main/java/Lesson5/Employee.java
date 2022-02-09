@@ -1,7 +1,6 @@
 package Lesson5;
 
 public class Employee {
-    //пересдача
     static void printInfo(){
         System.out.println("name " + Employee.name + " | position " + Employee.position + " | email " + Employee.email + " | phone number " + Employee.phone + " | salary " + Employee.salary +" | age " +Employee.age);
     }
@@ -14,14 +13,14 @@ public class Employee {
 
 
     public Employee(String name, String position, String email, String phone, String salary, String age) {
-       name = name;
+        name = name;
         position = position;
-         email = email;
+        email = email;
         phone = phone;
-         salary = salary;
-         age = age;
+        salary = salary;
+        age = age;
     }
     public String getAge() {
         return age;
     }
-  }
+}
